@@ -17,7 +17,7 @@ L.control.scale().addTo(map);
 var indiaCountryLayer = L.tileLayer.wms(
   "https://wms.qgiscloud.com/shubhamgeoinfo/Database_using_QGIS/",
   {
-    layers: "India_Country",
+    layers: "India_country",
     format: "image/png",
     transparent: true,
     attribution: "QGIS Cloud",
